@@ -1,0 +1,114 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>與我聯絡</title>
+   <style>
+       body{
+        background-color: rgb(224, 215, 250);
+       }
+        div{
+            background-color: rgb(224, 215, 250);
+            border: 0px solid #000000;
+            border-top: 0px solid #000000;
+            padding: 20px;
+            padding-left: 50px;
+            margin: 0px;
+            position: relative;
+            top: 100px;
+           
+        }
+         #d1{
+        position: absolute;
+        left: 0px;
+        right:0px;
+         top: 0px;
+        /* bottom:-100px; */
+
+        background-color: #b08ddd;
+    }
+
+ a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  width: 80px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+   
+   </style>
+</head>
+<body >
+    <div id="d1">
+        <table align="center">
+            <tr>
+                <td><a href="indexhw.html">首頁</a></td>
+                <td><a href="abouthw.html">關於我</a></td>
+                <td><a href="comichw.html">我的漫畫</a></td>
+                <td><a href="heroinehw.html">主角介紹</a></td>
+                <td><a href="contacthw.html">與我聯絡</a></td>
+             </tr>
+        </table>
+    </div>
+    <div>
+        <form action="">
+            <table border="0" align="center">
+              <tr>
+                  <td>暱稱:</td>
+                  <td><input type="text" name="nickname"></td>
+              </tr>
+              <tr>
+                  <td>性別:</td>
+                  <td><input type="radio" name="sex" value="1">男
+                      <input type="radio" name="sex" value="2">女
+                      <input type="radio" name="sex" value="0">不提供</td>
+              </tr>
+              <tr>
+                  <td>興趣:</td>
+                  <td><input type="checkbox" name="inst" value="food">吃飯
+                      <input type="checkbox" name="inst" value="sleep">睡覺
+                      <input type="checkbox" name="inst" value="game">打電動</td>
+              </tr>
+              <tr>
+                  <td>地區:</td>
+                  <td>
+                  <select name="city">
+                      <option>--請選擇--</option>
+                      <option value="Tainan">台南市</option>
+                      <option value="kaoshung">高雄市</option>
+                      <option value="Taipei">台北市</option>
+                  </select> 
+                  </td>
+              </tr>
+              <tr valign="top">
+                  <td >意見:</td>
+                  <td >
+                     <textarea name="msg" rows="5" cols="30" >地址:
+電話:
+姓名:
+                     </textarea>
+                  </td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td>
+                     <input type="reset" value="清除">
+                     <input type="submit" value="送出意見">
+                  </td>
+              </tr>
+              
+            </table>
+      </form>
+    </div>
+    
+    
+</body>
+</html>
